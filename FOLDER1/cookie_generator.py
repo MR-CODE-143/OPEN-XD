@@ -87,7 +87,9 @@ class aiman:
                 print(44*"-")
                 sys.exit()
             elif "User must verify their account" in response:
-                sys.exit(" (•) EMAIL/PASSWORD WRONG\n (•) CHECKPOINT ID BRO !!")
+                sys.exit(" (•) CHECKPOINT ID BRO !!")
+            else:
+                sys.exit(" (•) EMAIL/PASSWORD WRONG")
         except Exception as e:
             pass
 
